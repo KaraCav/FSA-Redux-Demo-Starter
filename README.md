@@ -79,7 +79,7 @@ export const store = configureStore({
 ```
 - The slice gives us a reducer (in addition to other things). The reducer needs to be plugged into a store.
 
-## Step 4 - 
+## Step 4 - Switching from React's State to Redux
 The index.js contains the color component, which is where we are adding React Redux hooks for our component to interact with the store.
 1. Inside the const Color, we need to use the Redux hook useDispatch: 
 `const dispatch = useDispatch();`
